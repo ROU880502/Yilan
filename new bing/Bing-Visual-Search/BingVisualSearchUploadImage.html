@@ -139,7 +139,7 @@
             function sendRequest(file, key) {
                 var market = document.getElementById('mkt').value;
                 var safeSearch = document.getElementById('safesearch').value;
-                var baseUri = `https://api.cognitive.microsoft.com/bing/v7.0/images/visualsearch?exph=180&expw=180&q=costco+clothes+taiwan`;
+               var baseUri = `https://api.cognitive.microsoft.com/bing/v7.0/images/visualsearch?exph=180&expw=180&q=costco+clothes+taiwan+site:https://www.costco.com.tw/`;
 
                 var form = new FormData();
                 form.append("image", file);
@@ -537,7 +537,7 @@
 
             <div>
                 <!-- <p>Subscription key:  -->
-                    <input type="hidden" id="key" name="subscription" value="4a9d33016d654499aea183aca377ad46" size=40 maxlength="32" />
+                    <input type="hidden" id="key" name="subscription" value="b4f2201e2b2743de90489c40d5735044" size=40 maxlength="32" />
 			
                 </p>
             </div>
